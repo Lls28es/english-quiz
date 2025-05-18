@@ -1,0 +1,562 @@
+[
+  {
+    "id": 1,
+    "type": "word",
+    "category": "Days",
+    "english": "Monday",
+    "spanish": "Lunes"
+  },
+  {
+    "id": 2,
+    "type": "word",
+    "category": "Days",
+    "english": "Tuesday",
+    "spanish": "Martes"
+  },
+  {
+    "id": 3,
+    "type": "word",
+    "category": "Days",
+    "english": "Wednesday",
+    "spanish": "Miércoles"
+  },
+  {
+    "id": 4,
+    "type": "word",
+    "category": "Days",
+    "english": "Thursday",
+    "spanish": "Jueves"
+  },
+  {
+    "id": 5,
+    "type": "word",
+    "category": "Days",
+    "english": "Friday",
+    "spanish": "Viernes"
+  },
+  {
+    "id": 6,
+    "type": "word",
+    "category": "Days",
+    "english": "Saturday",
+    "spanish": "Sábado"
+  },
+  {
+    "id": 7,
+    "type": "word",
+    "category": "Days",
+    "english": "Sunday",
+    "spanish": "Domingo"
+  },
+  {
+    "id": 8,
+    "type": "verb",
+    "category": "Action",
+    "english": "go",
+    "spanish": "ir",
+    "tenses": {
+      "present": "go",
+      "past": "went",
+      "future": "will go"
+    }
+  },
+  {
+    "id": 9,
+    "type": "verb",
+    "category": "Action",
+    "english": "eat",
+    "spanish": "comer",
+    "tenses": {
+      "present": "eat",
+      "past": "ate",
+      "future": "will eat"
+    }
+  },
+  {
+    "id": 10,
+    "type": "verb",
+    "category": "Action",
+    "english": "sleep",
+    "spanish": "dormir",
+    "tenses": {
+      "present": "sleep",
+      "past": "slept",
+      "future": "will sleep"
+    }
+  },
+  {
+    "id": 11,
+    "type": "verb",
+    "category": "Action",
+    "english": "do",
+    "spanish": "hacer",
+    "tenses": {
+      "present": "do",
+      "past": "did",
+      "future": "will do"
+    }
+  },
+  {
+    "id": 12,
+    "type": "verb",
+    "category": "Action",
+    "english": "have",
+    "spanish": "tener",
+    "tenses": {
+      "present": "have",
+      "past": "had",
+      "future": "will have"
+    }
+  },
+  {
+    "id": 13,
+    "type": "verb",
+    "category": "Action",
+    "english": "come",
+    "spanish": "venir",
+    "tenses": {
+      "present": "come",
+      "past": "came",
+      "future": "will come"
+    }
+  },
+  {
+    "id": 14,
+    "type": "verb",
+    "category": "Action",
+    "english": "speak",
+    "spanish": "hablar",
+    "tenses": {
+      "present": "speak",
+      "past": "spoke",
+      "future": "will speak"
+    }
+  },
+  {
+    "id": 15,
+    "type": "word",
+    "category": "Position",
+    "english": "in",
+    "spanish": "dentro"
+  },
+  {
+    "id": 16,
+    "type": "word",
+    "category": "Position",
+    "english": "out",
+    "spanish": "fuera"
+  },
+  {
+    "id": 17,
+    "type": "word",
+    "category": "Position",
+    "english": "on",
+    "spanish": "sobre"
+  },
+  {
+    "id": 18,
+    "type": "word",
+    "category": "Position",
+    "english": "under",
+    "spanish": "debajo"
+  },
+  {
+    "id": 19,
+    "type": "word",
+    "category": "Position",
+    "english": "above",
+    "spanish": "encima"
+  },
+  {
+    "id": 20,
+    "type": "word",
+    "category": "Amount",
+    "english": "some",
+    "spanish": "algunas"
+  },
+  {
+    "id": 21,
+    "type": "word",
+    "category": "Amount",
+    "english": "many",
+    "spanish": "muchas"
+  },
+  {
+    "id": 22,
+    "type": "word",
+    "category": "Amount",
+    "english": "few",
+    "spanish": "pocas"
+  },
+  {
+    "id": 23,
+    "type": "word",
+    "category": "Frequency",
+    "english": "always",
+    "spanish": "siempre"
+  },
+  {
+    "id": 24,
+    "type": "word",
+    "category": "Frequency",
+    "english": "never",
+    "spanish": "nunca"
+  },
+  {
+    "id": 25,
+    "type": "word",
+    "category": "Frequency",
+    "english": "once a month",
+    "spanish": "una vez al mes"
+  },
+  {
+    "id": 26,
+    "type": "word",
+    "category": "Frequency",
+    "english": "every day",
+    "spanish": "todos los días"
+  },
+  {
+    "id": 27,
+    "type": "word",
+    "category": "Frequency",
+    "english": "every two days",
+    "spanish": "cada dos días"
+  },
+  {
+    "id": 28,
+    "type": "word",
+    "category": "Frequency",
+    "english": "twice a week",
+    "spanish": "dos veces a la semana"
+  },
+  {
+    "id": 29,
+    "type": "word",
+    "category": "Frequency",
+    "english": "three times a month",
+    "spanish": "tres veces al mes"
+  },
+  {
+    "id": 30,
+    "type": "word",
+    "category": "Frequency",
+    "english": "once a week",
+    "spanish": "una vez a la semana"
+  },
+  {
+    "id": 31,
+    "type": "word",
+    "category": "Frequency",
+    "english": "twice a month",
+    "spanish": "dos veces al mes"
+  },
+  {
+    "id": 32,
+    "type": "word",
+    "category": "Frequency",
+    "english": "three times a week",
+    "spanish": "tres veces a la semana"
+  },
+  {
+    "id": 33,
+    "type": "word",
+    "category": "Frequency",
+    "english": "four times a week",
+    "spanish": "cuatro veces a la semana"
+  },
+  {
+    "id": 34,
+    "type": "word",
+    "category": "Frequency",
+    "english": "five times a week",
+    "spanish": "cinco veces a la semana"
+  },
+  {
+    "id": 35,
+    "type": "word",
+    "category": "Frequency",
+    "english": "six times a week",
+    "spanish": "seis veces a la semana"
+  },
+  {
+    "id": 36,
+    "type": "word",
+    "category": "Frequency",
+    "english": "seven times a week",
+    "spanish": "siete veces a la semana"
+  },
+  {
+    "id": 37,
+    "english": "Where do you live?",
+    "spanish": "¿Dónde vives?",
+    "category": "WH Questions",
+    "type": "wh-question"
+  },
+  {
+    "id": 38,
+    "english": "Whose book is this?",
+    "spanish": "¿De quién es este libro?",
+    "category": "WH Questions",
+    "type": "wh-question"
+  },
+  {
+    "id": 39,
+    "english": "Why are you late?",
+    "spanish": "¿Por qué llegaste tarde?",
+    "category": "WH Questions",
+    "type": "wh-question"
+  },
+  {
+    "id": 40,
+    "english": "What do you want to eat?",
+    "spanish": "¿Qué quieres comer?",
+    "category": "WH Questions",
+    "type": "wh-question"
+  },
+  {
+    "id": 41,
+    "english": "Which color do you prefer?",
+    "spanish": "¿Qué color prefieres?",
+    "category": "WH Questions",
+    "type": "wh-question"
+  },
+  {
+    "id": 42,
+    "english": "How are you feeling today?",
+    "spanish": "¿Cómo te sientes hoy?",
+    "category": "WH Questions",
+    "type": "wh-question"
+  },
+  {
+    "id": 43,
+    "english": "How much sugar do you want?",
+    "spanish": "¿Cuánta azúcar quieres?",
+    "category": "WH Questions",
+    "type": "wh-question"
+  },
+  {
+    "id": 44,
+    "english": "How many books do you have?",
+    "spanish": "¿Cuántos libros tienes?",
+    "category": "WH Questions",
+    "type": "wh-question"
+  },
+  {
+    "id": 45,
+    "english": "How long did the movie last?",
+    "spanish": "¿Cuánto duró la película?",
+    "category": "WH Questions",
+    "type": "wh-question"
+  },
+  {
+    "id": 46,
+    "english": "to play",
+    "spanish": "jugar",
+    "category": "Base Verbs",
+    "type": "base-verb"
+  },
+  {
+    "id": 47,
+    "english": "to work",
+    "spanish": "trabajar",
+    "category": "Base Verbs",
+    "type": "base-verb"
+  },
+  {
+    "id": 48,
+    "english": "to clean",
+    "spanish": "limpiar",
+    "category": "Base Verbs",
+    "type": "base-verb"
+  },
+  {
+    "id": 49,
+    "english": "to call",
+    "spanish": "llamar",
+    "category": "Base Verbs",
+    "type": "base-verb"
+  },
+  {
+    "id": 50,
+    "english": "to open",
+    "spanish": "abrir",
+    "category": "Base Verbs",
+    "type": "base-verb"
+  },
+  {
+    "id": 51,
+    "english": "Past Continuous",
+    "spanish": "She was not watching ...",
+    "category": "Verb Tenses",
+    "type": "tense-identification"
+  },
+  {
+    "id": 52,
+    "english": "Present Simple",
+    "spanish": "He plays soccer ...",
+    "category": "Verb Tenses",
+    "type": "tense-identification"
+  },
+  {
+    "id": 53,
+    "english": "Future Perfect",
+    "spanish": "They will have finished ...",
+    "category": "Verb Tenses",
+    "type": "tense-identification"
+  },
+  {
+    "id": 54,
+    "english": "Past Perfect",
+    "spanish": "I had already eaten ...",
+    "category": "Verb Tenses",
+    "type": "tense-identification"
+  },
+  {
+    "id": 55,
+    "english": "Present Perfect Continuous",
+    "spanish": "We have been studying ...",
+    "category": "Verb Tenses",
+    "type": "tense-identification"
+  },
+  {
+    "id": 56,
+    "english": "Simple Present",
+    "spanish": "I eat breakfast ...",
+    "category": "Verb Tenses",
+    "type": "tense-identification"
+  },
+  {
+    "id": 57,
+    "english": "Present Continuous",
+    "spanish": "She is reading a book",
+    "category": "Verb Tenses",
+    "type": "tense-identification"
+  },
+  {
+    "id": 58,
+    "english": "Past Continuous",
+    "spanish": "He was playing football ...",
+    "category": "Verb Tenses",
+    "type": "tense-identification"
+  },
+  {
+    "id": 59,
+    "english": "Present Perfect",
+    "spanish": "I have seen that movie ...",
+    "category": "Verb Tenses",
+    "type": "tense-identification"
+  },
+  {
+    "id": 60,
+    "english": "Simple Past",
+    "spanish": "They visited Paris ...",
+    "category": "Verb Tenses",
+    "type": "tense-identification"
+  },
+  {
+    "id": 61,
+    "english": "Future Simple",
+    "spanish": "We will go to the beach ...",
+    "category": "Verb Tenses",
+    "type": "tense-identification"
+  },
+  {
+    "id": 62,
+    "english": "She worked ...",
+    "spanish": "Ella trabajó ayer",
+    "category": "Guess the Tense",
+    "type": "tense-guess"
+  },
+  {
+    "id": 63,
+    "english": "She worked ...",
+    "spanish": "Simple Past",
+    "category": "Guess the Tense",
+    "type": "tense-guess"
+  },
+  {
+    "id": 64,
+    "english": "He is watching ...",
+    "spanish": "Present Continuous",
+    "category": "Guess the Tense",
+    "type": "tense-guess"
+  },
+  {
+    "id": 65,
+    "english": "We had finished dinner ...",
+    "spanish": "Past Perfect",
+    "category": "Guess the Tense",
+    "type": "tense-guess"
+  },
+  {
+    "id": 66,
+    "english": "They have traveled to Japan",
+    "spanish": "Present Perfect",
+    "category": "Guess the Tense",
+    "type": "tense-guess"
+  },
+  {
+    "id": 67,
+    "english": "She will be working ...",
+    "spanish": "Future Continuous",
+    "category": "Guess the Tense",
+    "type": "tense-guess"
+  },
+  {
+    "id": 68,
+    "english": "They will have finished ...",
+    "spanish": "Future Perfect",
+    "category": "Guess the Tense",
+    "type": "tense-guess"
+  },
+  {
+    "id": 69,
+    "english": "I had already eaten ...",
+    "spanish": "Past Perfect",
+    "category": "Guess the Tense",
+    "type": "tense-guess"
+  },
+  {
+    "id": 70,
+    "english": "We have been studying ...",
+    "spanish": "Present Perfect Continuous",
+    "category": "Guess the Tense",
+    "type": "tense-guess"
+  },
+  {
+    "id": 71,
+    "english": "She worked ...",
+    "spanish": "Simple Past",
+    "category": "Guess the Tense",
+    "type": "tense-guess"
+  },
+  {
+    "id": 72,
+    "english": "He is watching TV",
+    "spanish": "Present Continuous",
+    "category": "Guess the Tense",
+    "type": "tense-guess"
+  },
+  {
+    "id": 73,
+    "english": "We had finished dinner...",
+    "spanish": "Past Perfect",
+    "category": "Guess the Tense",
+    "type": "tense-guess"
+  },
+  {
+    "id": 74,
+    "english": "They have traveled to Japan",
+    "spanish": "Present Perfect",
+    "category": "Guess the Tense",
+    "type": "tense-guess"
+  },
+  {
+    "id": 75,
+    "english": "She will be working...",
+    "spanish": "Future Continuous",
+    "category": "Guess the Tense",
+    "type": "tense-guess"
+  }
+]
