@@ -25,7 +25,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
   display: flex;
-  place-items: center;
+  justify-content: center;
+  /* place-items: center; */
+  padding-top: 20px;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -77,6 +79,32 @@ button:hover {
 .btnChangeCategory:hover {
   background: #d41515c5;
   border-color: #d41515;
+}
+
+.btnScore {
+  border-radius: 20px;
+  padding: 4px 10px;
+  font-size: 14px;
+  cursor: auto !important;
+  margin: 2px 7px;
+}
+
+.btnScoreAnswered {
+  background: #729ddd;
+}
+.btnScoreCorrect {
+  background: #7fcf74;
+}
+.btnScoreWrong {
+  background: #d86c6c;
+}
+
+.btnTotalScore {
+  background: #b17ece;
+}
+
+.btnScoreByCategory {
+  background: #5fa898;
 }
 
 @media (prefers-color-scheme: light) {
