@@ -1,6 +1,14 @@
 import { useEffect, useState } from 'react';
 import Score from './Score';
 
+const shuffle = (array) => {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+};
+
 export default function QuizCard() {
   const [options, setOptions] = useState([]);
   const [questions, setQuestions] = useState([]);
@@ -20,14 +28,17 @@ export default function QuizCard() {
     fetch('/english_exercises.json')
       .then((res) => res.json())
       .then((data) => {
-        const uniqueCategories = [...new Set(data.map((q) => q.category))];
+        const shuffledArray = shuffle(data);
+        const uniqueCategories = [
+          ...new Set(shuffledArray.map((q) => q.category)),
+        ];
         setCategories(uniqueCategories);
 
         let scoresCategories = uniqueCategories.map((cat) => {
           return { category: cat, score: 0 };
         });
         setScoreByCategory(scoresCategories);
-        setQuestions(data);
+        setQuestions(shuffledArray);
       });
   }, []);
 
@@ -35,12 +46,12 @@ export default function QuizCard() {
     if (filteredQuestions.length > 0) {
       const current = filteredQuestions[currentIndex];
       let opts = filteredQuestions
-        .filter((q) => q.spanish !== current.spanish)
+        .filter((q) => q.correct !== current.correct)
         .sort(() => 0.5 - Math.random())
         .slice(0, 2)
-        .map((q) => q.spanish);
+        .map((q) => q.correct);
 
-      opts.push(current.spanish);
+      opts.push(current.correct);
       opts = opts.sort(() => 0.5 - Math.random());
       setOptions(opts);
     }
@@ -57,9 +68,9 @@ export default function QuizCard() {
   };
 
   const handleAnswer = (answer, currentCategory, result) => {
-    if (selectedAnswer === current.spanish) return; // Si ya acertaste, no hagas nada
+    if (selectedAnswer === current.correct) return; // Si ya acertaste, no hagas nada
     setSelectedAnswer(answer);
-    if (answer === current.spanish) {
+    if (answer === current.correct) {
       setShowNext(true);
       setQuestionsAnswered((prev) => prev + 1);
     }
@@ -101,12 +112,11 @@ export default function QuizCard() {
           questionsAnswered={questionsAnswered}
           questionsCorrect={questionsCorrect}
           questionsWrong={questionsWrong}
-          score={score}
         />
         <div className="mb-5">
           <button className="btnScore btnTotalScore"> Score: {score}</button>
         </div>
-        <div className="">
+        <div className="mx-5">
           <h2 className="text-xl my-4">Selecciona una categoría:</h2>
           <div className=" flex-wrap gap-2 justify-center">
             {categories.map((cat) => (
@@ -120,9 +130,10 @@ export default function QuizCard() {
             ))}
           </div>
         </div>
+
         <div className="p-5">
           <div className="mx-5 my-3">
-            <hr className="mx-5" />
+            <hr className="mx-4 pb-4" />
             <p className=" fw-semibold"> Score by Category</p>
             <div className="d-flex flex-wrap gap-2 justify-content-center">
               {scoreByCategory.map((cat) => (
@@ -144,12 +155,66 @@ export default function QuizCard() {
   const current = filteredQuestions[currentIndex];
 
   return (
-    <div className="p-4">
-      <div className="px-5 pt-3">
-        <div className="mx-5 mb-5">
-          <div className="d-flex flex-wrap gap-2 justify-content-center">
-            <button className="btnScore btnTotalScore">Score: {score}</button>
+    <div className="p-4 mt-5">
+      <div className="chosenCategory">
+        <h3 className=" text-start">{current.category} category</h3>
+      </div>
 
+      <div className="contentQuest flex-col gap-2 max-w-md mx-auto pt-4 pb-5 mb-3">
+        <h2 className="text-green-500 text-2xl mb-4">{current.english}</h2>
+        {options.map((option) => {
+          const isCorrect =
+            selectedAnswer === current.correct && option === current.correct;
+          const isWrong =
+            selectedAnswer === option && selectedAnswer !== current.correct;
+          return (
+            <button
+              key={option}
+              onClick={() =>
+                handleAnswer(
+                  option,
+                  current.category,
+                  option === current.correct
+                )
+              }
+              className={`px-4 py-2 rounded border transition-colors duration-200 text-lg btnOption
+        ${isCorrect ? 'bg-green-500 text-white' : ''}
+        ${isWrong ? 'bg-red-500 text-white' : ''}
+        ${selectedAnswer && !isCorrect && !isWrong ? 'opacity-50' : ''}
+      `}
+              disabled={selectedAnswer === current.correct}
+            >
+              {option}
+            </button>
+          );
+        })}
+      </div>
+
+      {showNext && current.translation && <p>{current.translation}</p>}
+
+      {showNext && (
+        <button
+          onClick={nextQuestion}
+          className="mt-6 bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded transition"
+        >
+          Siguiente
+        </button>
+      )}
+
+      <div className="py-3">
+        <button
+          onClick={() => setCategory('')}
+          className="underline text-blue-600 bg-red-500 btnChangeCategory"
+        >
+          ⬅️ Cambiar categoría
+        </button>
+      </div>
+
+      <hr className="mx-4 pb-3" />
+
+      <div className="px-5">
+        <div className="mx-5 mb-4">
+          <div className="d-flex flex-wrap gap-2 justify-content-center">
             <button className="btnScore btnScoreByCategory">
               Score by {current.category}:{' '}
               {
@@ -161,52 +226,16 @@ export default function QuizCard() {
           </div>
         </div>
       </div>
-      <h2 className="text-2xl mb-4">{current.english}</h2>
-      <div className="flex flex-col gap-2 max-w-md mx-auto">
-        {options.map((option) => {
-          const isCorrect =
-            selectedAnswer === current.spanish && option === current.spanish;
-          const isWrong =
-            selectedAnswer === option && selectedAnswer !== current.spanish;
-          return (
-            <button
-              key={option}
-              onClick={() =>
-                handleAnswer(
-                  option,
-                  current.category,
-                  option === current.spanish
-                )
-              }
-              className={`px-4 py-2 rounded border transition-colors duration-200 text-lg btnOption
-        ${isCorrect ? 'bg-green-500 text-white' : ''}
-        ${isWrong ? 'bg-red-500 text-white' : ''}
-        ${selectedAnswer && !isCorrect && !isWrong ? 'opacity-50' : ''}
-      `}
-              disabled={selectedAnswer === current.spanish}
-            >
-              {option}
-            </button>
-          );
-        })}
-      </div>
 
-      {showNext && (
-        <button
-          onClick={nextQuestion}
-          className="mt-6 bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded transition"
-        >
-          Siguiente
-        </button>
-      )}
+      <Score
+        questionsAnswered={questionsAnswered}
+        questionsCorrect={questionsCorrect}
+        questionsWrong={questionsWrong}
+        score={score}
+      />
 
-      <div className="mt-4 py-3">
-        <button
-          onClick={() => setCategory('')}
-          className="mb-4 underline text-blue-600 bg-red-500 btnChangeCategory"
-        >
-          ⬅️ Cambiar categoría
-        </button>
+      <div className="mb-5">
+        <button className="btnScore btnTotalScore"> Score: {score}</button>
       </div>
     </div>
   );

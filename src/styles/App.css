@@ -14,8 +14,16 @@ button {
   background-color: #22c55e;
 }
 
+.bg-green-500:hover {
+  background-color: #16a34a !important;
+}
+
 .bg-red-500 {
-  background-color: #c03232;
+  background-color: #c23f3f;
+}
+
+.bg-red-500:hover {
+  background-color: #b91c1c !important;
 }
 
 .bg-blue-500 {
@@ -32,4 +40,32 @@ button {
 
 .hover\:bg-blue-600:hover {
   background-color: #2563eb;
+}
+
+.text-green-500 {
+  color: #9de11d;
+  text-decoration: underline;
+  font-size: 34px;
+}
+
+.chosenCategory {
+  position: absolute;
+}
+
+.chosenCategory h3 {
+  color: #df6161;
+  font-size: 16px;
+  background: #201f1f;
+  margin: 0;
+  padding: 10px 20px;
+  position: relative;
+  top: -34px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.contentQuest {
+  background: #201f1f;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
