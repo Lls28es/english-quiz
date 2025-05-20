@@ -45,7 +45,6 @@ button {
 .text-green-500 {
   color: #9de11d;
   text-decoration: underline;
-  font-size: 34px;
 }
 
 .chosenCategory {
@@ -54,7 +53,6 @@ button {
 
 .chosenCategory h3 {
   color: #df6161;
-  font-size: 16px;
   background: #201f1f;
   margin: 0;
   padding: 10px 20px;
@@ -68,4 +66,22 @@ button {
   border-top-right-radius: 25px;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
+}
+
+@media (max-width: 768px) {
+  .app {
+    padding: 1rem;
+  }
+
+  .chosenCategory {
+    display: none;
+  }
+
+  .contentQuiz {
+    margin-top: 0 !important;
+  }
+
+  .contentQuest {
+    border-radius: 25px;
+  }
 }

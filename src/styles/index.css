@@ -74,7 +74,6 @@ button:hover {
 
 .btnChangeCategory {
   padding: 6px 7px;
-  font-size: 14px;
 }
 .btnChangeCategory:hover {
   background: #d41515c5;
@@ -84,7 +83,6 @@ button:hover {
 .btnScore {
   border-radius: 20px;
   padding: 4px 10px;
-  font-size: 14px;
   cursor: auto !important;
   margin: 2px 7px;
 }

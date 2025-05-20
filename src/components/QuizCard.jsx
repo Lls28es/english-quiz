@@ -107,23 +107,26 @@ export default function QuizCard() {
 
   if (!category) {
     return (
-      <div className="p-4">
+      <div className="py-4">
         <Score
           questionsAnswered={questionsAnswered}
           questionsCorrect={questionsCorrect}
           questionsWrong={questionsWrong}
         />
-        <div className="mb-5">
-          <button className="btnScore btnTotalScore"> Score: {score}</button>
+        <div className="my-1 mb-4">
+          <button className="btnScore btnTotalScore  fs-14">
+            {' '}
+            Score: {score}
+          </button>
         </div>
-        <div className="mx-5">
-          <h2 className="text-xl my-4">Selecciona una categoría:</h2>
+        <div className="">
+          <h2 className="text-xl fs-30">Selecciona una categoría:</h2>
           <div className=" flex-wrap gap-2 justify-center">
             {categories.map((cat) => (
               <button
                 key={cat}
                 onClick={() => handleCategorySelect(cat)}
-                className="btnCategory bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
+                className="btnCategory bg-blue-500 text-white rounded hover:bg-blue-600 transition fs-18"
               >
                 {cat}
               </button>
@@ -131,15 +134,15 @@ export default function QuizCard() {
           </div>
         </div>
 
-        <div className="p-5">
-          <div className="mx-5 my-3">
-            <hr className="mx-4 pb-4" />
+        <div className="py-5">
+          <div className="my-3">
+            <hr className="pb-4" />
             <p className=" fw-semibold"> Score by Category</p>
             <div className="d-flex flex-wrap gap-2 justify-content-center">
               {scoreByCategory.map((cat) => (
                 <button
                   key={cat.category}
-                  className="btnScore btnScoreByCategory"
+                  className="btnScore btnScoreByCategory fs-14"
                 >
                   {' '}
                   {cat.category}: {cat.score}
@@ -155,13 +158,15 @@ export default function QuizCard() {
   const current = filteredQuestions[currentIndex];
 
   return (
-    <div className="p-4 mt-5">
+    <div className="contentQuiz p-4 mt-5">
       <div className="chosenCategory">
-        <h3 className=" text-start">{current.category} category</h3>
+        <h3 className=" text-start fs-16">{current.category} category</h3>
       </div>
 
-      <div className="contentQuest flex-col gap-2 max-w-md mx-auto pt-4 pb-5 mb-3">
-        <h2 className="text-green-500 text-2xl mb-4">{current.english}</h2>
+      <div className="contentQuest flex-col gap-2 max-w-md mx-auto pt-3 pb-4 mb-3">
+        <h2 className="text-green-500 text-2xl mb-4 fs-34">
+          {current.english}
+        </h2>
         {options.map((option) => {
           const isCorrect =
             selectedAnswer === current.correct && option === current.correct;
@@ -177,7 +182,7 @@ export default function QuizCard() {
                   option === current.correct
                 )
               }
-              className={`px-4 py-2 rounded border transition-colors duration-200 text-lg btnOption
+              className={`rounded border transition-colors duration-200 text-lg btnOption fs-16
         ${isCorrect ? 'bg-green-500 text-white' : ''}
         ${isWrong ? 'bg-red-500 text-white' : ''}
         ${selectedAnswer && !isCorrect && !isWrong ? 'opacity-50' : ''}
@@ -201,21 +206,21 @@ export default function QuizCard() {
         </button>
       )}
 
-      <div className="py-3">
+      <div className="py-2">
         <button
           onClick={() => setCategory('')}
-          className="underline text-blue-600 bg-red-500 btnChangeCategory"
+          className="underline text-blue-600 bg-red-500 btnChangeCategory fs-14"
         >
           ⬅️ Cambiar categoría
         </button>
       </div>
 
-      <hr className="mx-4 pb-3" />
+      <hr className="pb-3" />
 
-      <div className="px-5">
-        <div className="mx-5 mb-4">
+      <div className="">
+        <div className="mb-2">
           <div className="d-flex flex-wrap gap-2 justify-content-center">
-            <button className="btnScore btnScoreByCategory">
+            <button className="btnScore btnScoreByCategory fs-14">
               Score by {current.category}:{' '}
               {
                 scoreByCategory.filter(
@@ -234,8 +239,11 @@ export default function QuizCard() {
         score={score}
       />
 
-      <div className="mb-5">
-        <button className="btnScore btnTotalScore"> Score: {score}</button>
+      <div className="my-2">
+        <button className="btnScore btnTotalScore fs-14">
+          {' '}
+          Score: {score}
+        </button>
       </div>
     </div>
   );
