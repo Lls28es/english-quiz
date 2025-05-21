@@ -747,5 +747,425 @@
     "english": "Past Perfect",
     "correct": "She had left ...",
     "translation": "Ella había salido antes de que llegaste."
+  },
+  {
+    "id": 96,
+    "type": "base-verb",
+    "category": "Irregular Verbs",
+    "english": "to begin",
+    "correct": "empezar"
+  },
+  {
+    "id": 97,
+    "type": "base-verb",
+    "category": "Irregular Verbs",
+    "english": "to drink",
+    "correct": "beber"
+  },
+  {
+    "id": 98,
+    "type": "base-verb",
+    "category": "Irregular Verbs",
+    "english": "to drive",
+    "correct": "conducir"
+  },
+  {
+    "id": 99,
+    "type": "base-verb",
+    "category": "Irregular Verbs",
+    "english": "to eat",
+    "correct": "comer"
+  },
+  {
+    "id": 100,
+    "type": "base-verb",
+    "category": "Irregular Verbs",
+    "english": "to fall",
+    "correct": "caer"
+  },
+  {
+    "id": 101,
+    "type": "adjetives",
+    "category": "Adjetives",
+    "english": "short",
+    "correct": "corto"
+  },
+  {
+    "id": 102,
+    "type": "adjetives",
+    "category": "Adjetives",
+    "english": "happy",
+    "correct": "feliz"
+  },
+  {
+    "id": 103,
+    "type": "adjetives",
+    "category": "Adjetives",
+    "english": "cold",
+    "correct": "frío"
+  },
+  {
+    "id": 104,
+    "type": "adjetives",
+    "category": "Adjetives",
+    "english": "tall",
+    "correct": "alto"
+  },
+  {
+    "id": 105,
+    "type": "adjetives",
+    "category": "Adjetives",
+    "english": "new",
+    "correct": "nuevo"
+  },
+  {
+    "id": 106,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "before",
+    "correct": "antes"
+  },
+  {
+    "id": 107,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "after",
+    "correct": "después"
+  },
+  {
+    "id": 108,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "twice",
+    "correct": "dos veces"
+  },
+  {
+    "id": 109,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "bird",
+    "correct": "pájaro"
+  },
+  {
+    "id": 110,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "light",
+    "correct": "luz"
+  },
+  {
+    "id": 111,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "dark",
+    "correct": "oscuro"
+  },
+  {
+    "id": 112,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "soft",
+    "correct": "suave"
+  },
+  {
+    "id": 113,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "hard",
+    "correct": "duro"
+  },
+  {
+    "id": 114,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "north",
+    "correct": "norte"
+  },
+  {
+    "id": 115,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "south",
+    "correct": "sur"
+  },
+  {
+    "id": 116,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "east",
+    "correct": "este"
+  },
+  {
+    "id": 117,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "west",
+    "correct": "oeste"
+  },
+  {
+    "id": 118,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "cloud",
+    "correct": "nube"
+  },
+  {
+    "id": 119,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "moon",
+    "correct": "luna"
+  },
+  {
+    "id": 120,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "sun",
+    "correct": "sol"
+  },
+  {
+    "id": 121,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "wind",
+    "correct": "viento"
+  },
+  {
+    "id": 122,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "star",
+    "correct": "estrella"
+  },
+  {
+    "id": 123,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "tree",
+    "correct": "árbol"
+  },
+  {
+    "id": 124,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "leaf",
+    "correct": "hoja"
+  },
+  {
+    "id": 125,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "rain",
+    "correct": "lluvia"
+  },
+  {
+    "id": 126,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "snow",
+    "correct": "nieve"
+  },
+  {
+    "id": 127,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "fire",
+    "correct": "fuego"
+  },
+  {
+    "id": 128,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "water",
+    "correct": "agua"
+  },
+  {
+    "id": 129,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "mountain",
+    "correct": "montaña"
+  },
+  {
+    "id": 130,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "river",
+    "correct": "río"
+  },
+  {
+    "id": 131,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "lake",
+    "correct": "lago"
+  },
+  {
+    "id": 132,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "sea",
+    "correct": "mar"
+  },
+  {
+    "id": 133,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "sand",
+    "correct": "arena"
+  },
+  {
+    "id": 134,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "rock",
+    "correct": "roca"
+  },
+  {
+    "id": 135,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "stone",
+    "correct": "piedra"
+  },
+  {
+    "id": 136,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "hill",
+    "correct": "colina"
+  },
+  {
+    "id": 137,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "valley",
+    "correct": "valle"
+  },
+  {
+    "id": 138,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "island",
+    "correct": "isla"
+  },
+  {
+    "id": 139,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "forest",
+    "correct": "bosque"
+  },
+  {
+    "id": 140,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "jungle",
+    "correct": "jungla"
+  },
+  {
+    "id": 141,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "desert",
+    "correct": "desierto"
+  },
+  {
+    "id": 142,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "animal",
+    "correct": "animal"
+  },
+  {
+    "id": 143,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "insect",
+    "correct": "insecto"
+  },
+  {
+    "id": 144,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "fish",
+    "correct": "pez"
+  },
+  {
+    "id": 145,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "whale",
+    "correct": "ballena"
+  },
+  {
+    "id": 146,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "shark",
+    "correct": "tiburón"
+  },
+  {
+    "id": 147,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "dolphin",
+    "correct": "delfín"
+  },
+  {
+    "id": 148,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "tiger",
+    "correct": "tigre"
+  },
+  {
+    "id": 149,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "lion",
+    "correct": "león"
+  },
+  {
+    "id": 150,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "monkey",
+    "correct": "mono"
+  },
+  {
+    "id": 151,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "elephant",
+    "correct": "elefante"
+  },
+  {
+    "id": 152,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "zebra",
+    "correct": "cebra"
+  },
+  {
+    "id": 153,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "bear",
+    "correct": "oso"
+  },
+  {
+    "id": 154,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "fox",
+    "correct": "zorro"
+  },
+  {
+    "id": 155,
+    "type": "word",
+    "category": "Isolated Words",
+    "english": "wolf",
+    "correct": "lobo"
   }
 ]
