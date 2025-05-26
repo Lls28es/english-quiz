@@ -1167,5 +1167,75 @@
     "category": "Isolated Words",
     "english": "wolf",
     "correct": "lobo"
+  },
+  {
+    "id": 156,
+    "english": "She has visited ...",
+    "correct": "Present Perfect",
+    "category": "Guess the Tense",
+    "type": "tense-guess"
+  },
+  {
+    "id": 157,
+    "english": "They had arrived ...",
+    "correct": "Past Perfect",
+    "category": "Guess the Tense",
+    "type": "tense-guess"
+  },
+  {
+    "id": 158,
+    "english": "He will have finished ...",
+    "correct": "Future Perfect",
+    "category": "Guess the Tense",
+    "type": "tense-guess"
+  },
+  {
+    "id": 159,
+    "english": "I have been working ...",
+    "correct": "Present Perfect Continuous",
+    "category": "Guess the Tense",
+    "type": "tense-guess"
+  },
+  {
+    "id": 160,
+    "english": "She had been studying ...",
+    "correct": "Past Perfect Continuous",
+    "category": "Guess the Tense",
+    "type": "tense-guess"
+  },
+  {
+    "id": 161,
+    "english": "They will have been waiting ...",
+    "correct": "Future Perfect Continuous",
+    "category": "Guess the Tense",
+    "type": "tense-guess"
+  },
+  {
+    "id": 162,
+    "english": "We have lived here for years ...",
+    "correct": "Present Perfect",
+    "category": "Guess the Tense",
+    "type": "tense-guess"
+  },
+  {
+    "id": 163,
+    "english": "He had worked there before the merger ...",
+    "correct": "Past Perfect",
+    "category": "Guess the Tense",
+    "type": "tense-guess"
+  },
+  {
+    "id": 164,
+    "english": "By next year, I will have graduated ...",
+    "correct": "Future Perfect",
+    "category": "Guess the Tense",
+    "type": "tense-guess"
+  },
+  {
+    "id": 165,
+    "english": "They have been learning English since January ...",
+    "correct": "Present Perfect Continuous",
+    "category": "Guess the Tense",
+    "type": "tense-guess"
   }
 ]

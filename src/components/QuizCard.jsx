@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import Score from './Score';
+import ExcerciseCounter from './ExerciseCounter';
 
 const shuffle = (array) => {
   for (let i = array.length - 1; i > 0; i--) {
@@ -151,6 +152,7 @@ export default function QuizCard() {
             </div>
           </div>
         </div>
+        <ExcerciseCounter />
       </div>
     );
   }
@@ -160,7 +162,9 @@ export default function QuizCard() {
   return (
     <div className="contentQuiz p-4 mt-5">
       <div className="chosenCategory">
-        <h3 className=" text-start fs-16">{current.category} category</h3>
+        <h3 className=" text-start text-red-500 fs-16">
+          {current.category} category
+        </h3>
       </div>
 
       <div className="contentQuest flex-col gap-2 max-w-md mx-auto pt-3 pb-4 mb-3">
@@ -245,6 +249,7 @@ export default function QuizCard() {
           Score: {score}
         </button>
       </div>
+      <ExcerciseCounter />
     </div>
   );
 }

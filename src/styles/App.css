@@ -47,12 +47,15 @@ button {
   text-decoration: underline;
 }
 
+.text-red-500 {
+  color: #f87171;
+}
+
 .chosenCategory {
   position: absolute;
 }
 
 .chosenCategory h3 {
-  color: #df6161;
   background: #201f1f;
   margin: 0;
   padding: 10px 20px;
