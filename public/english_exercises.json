@@ -50,8 +50,8 @@
   },
   {
     "id": 8,
-    "type": "verb",
-    "category": "Action",
+    "type": "irregular-verb",
+    "category": "Base Verbs - Irregulars",
     "english": "go",
     "correct": "ir",
     "tenses": {
@@ -62,8 +62,8 @@
   },
   {
     "id": 9,
-    "type": "verb",
-    "category": "Action",
+    "type": "irregular-verb",
+    "category": "Base Verbs - Irregulars",
     "english": "eat",
     "correct": "comer",
     "tenses": {
@@ -74,8 +74,8 @@
   },
   {
     "id": 10,
-    "type": "verb",
-    "category": "Action",
+    "type": "irregular-verb",
+    "category": "Base Verbs - Irregulars",
     "english": "sleep",
     "correct": "dormir",
     "tenses": {
@@ -86,8 +86,8 @@
   },
   {
     "id": 11,
-    "type": "verb",
-    "category": "Action",
+    "type": "irregular-verb",
+    "category": "Base Verbs - Irregulars",
     "english": "do",
     "correct": "hacer",
     "tenses": {
@@ -98,8 +98,8 @@
   },
   {
     "id": 12,
-    "type": "verb",
-    "category": "Action",
+    "type": "irregular-verb",
+    "category": "Base Verbs - Irregulars",
     "english": "have",
     "correct": "tener",
     "tenses": {
@@ -110,8 +110,8 @@
   },
   {
     "id": 13,
-    "type": "verb",
-    "category": "Action",
+    "type": "irregular-verb",
+    "category": "Base Verbs - Irregulars",
     "english": "come",
     "correct": "venir",
     "tenses": {
@@ -122,8 +122,8 @@
   },
   {
     "id": 14,
-    "type": "verb",
-    "category": "Action",
+    "type": "irregular-verb",
+    "category": "Base Verbs - Irregulars",
     "english": "speak",
     "correct": "hablar",
     "tenses": {
@@ -351,36 +351,36 @@
   },
   {
     "id": 46,
-    "type": "base-verb",
-    "category": "Base Verbs",
+    "type": "rregular-verb",
+    "category": "Base Verbs - Regulars",
     "english": "to play",
     "correct": "jugar"
   },
   {
     "id": 47,
-    "type": "base-verb",
-    "category": "Base Verbs",
+    "type": "rregular-verb",
+    "category": "Base Verbs - Regulars",
     "english": "to work",
     "correct": "trabajar"
   },
   {
     "id": 48,
-    "type": "base-verb",
-    "category": "Base Verbs",
+    "type": "rregular-verb",
+    "category": "Base Verbs - Regulars",
     "english": "to clean",
     "correct": "limpiar"
   },
   {
     "id": 49,
-    "type": "base-verb",
-    "category": "Base Verbs",
+    "type": "rregular-verb",
+    "category": "Base Verbs - Regulars",
     "english": "to call",
     "correct": "llamar"
   },
   {
     "id": 50,
-    "type": "base-verb",
-    "category": "Base Verbs",
+    "type": "rregular-verb",
+    "category": "Base Verbs - Regulars",
     "english": "to open",
     "correct": "abrir"
   },
@@ -602,8 +602,8 @@
   },
   {
     "id": 78,
-    "type": "verb",
-    "category": "Action",
+    "type": "irregular-verb",
+    "category": "Base Verbs - Irregulars",
     "english": "run",
     "correct": "correr",
     "tenses": {
@@ -614,8 +614,8 @@
   },
   {
     "id": 79,
-    "type": "verb",
-    "category": "Action",
+    "type": "irregular-verb",
+    "category": "Base Verbs - Irregulars",
     "english": "write",
     "correct": "escribir",
     "tenses": {
@@ -654,8 +654,8 @@
   },
   {
     "id": 84,
-    "type": "base-verb",
-    "category": "Base Verbs",
+    "type": "rregular-verb",
+    "category": "Base Verbs - Regulars",
     "english": "to close",
     "correct": "cerrar"
   },
@@ -683,8 +683,8 @@
   },
   {
     "id": 88,
-    "type": "verb",
-    "category": "Action",
+    "type": "irregular-verb",
+    "category": "Base Verbs - Irregulars",
     "english": "swim",
     "correct": "nadar",
     "tenses": {
@@ -695,8 +695,8 @@
   },
   {
     "id": 89,
-    "type": "verb",
-    "category": "Action",
+    "type": "irregular-verb",
+    "category": "Base Verbs - Irregulars",
     "english": "build",
     "correct": "construir",
     "tenses": {
@@ -735,8 +735,8 @@
   },
   {
     "id": 94,
-    "type": "base-verb",
-    "category": "Base Verbs",
+    "type": "rregular-verb",
+    "category": "Base Verbs - Regulars",
     "english": "to break",
     "correct": "romper"
   },
@@ -750,38 +750,58 @@
   },
   {
     "id": 96,
-    "type": "base-verb-irregular",
-    "category": "Irregular Verbs",
+    "type": "irregular-verb",
+    "category": "Base Verbs - Irregulars",
     "english": "to begin",
-    "correct": "empezar"
+    "correct": "empezar",
+    "tenses": {
+      "present": "begin",
+      "past": "began",
+      "future": "will begin"
+    }
   },
   {
     "id": 97,
-    "type": "base-verb-irregular",
-    "category": "Irregular Verbs",
+    "type": "irregular-verb",
+    "category": "Base Verbs - Irregulars",
     "english": "to drink",
-    "correct": "beber"
+    "correct": "beber",
+    "tenses": {
+      "present": "drink",
+      "past": "drank",
+      "future": "will drink"
+    }
   },
   {
     "id": 98,
-    "type": "base-verb-irregular",
-    "category": "Irregular Verbs",
+    "type": "irregular-verb",
+    "category": "Base Verbs - Irregulars",
     "english": "to drive",
     "correct": "conducir"
   },
   {
     "id": 99,
-    "type": "base-verb-irregular",
-    "category": "Irregular Verbs",
+    "type": "irregular-verb",
+    "category": "Base Verbs - Irregulars",
     "english": "to eat",
-    "correct": "comer"
+    "correct": "comer",
+    "tenses": {
+      "present": "eat",
+      "past": "ate",
+      "future": "will eat"
+    }
   },
   {
     "id": 100,
-    "type": "base-verb-irregular",
-    "category": "Irregular Verbs",
+    "type": "irregular-verb",
+    "category": "Base Verbs - Irregulars",
     "english": "to fall",
-    "correct": "caer"
+    "correct": "caer",
+    "tenses": {
+      "present": "fall",
+      "past": "fell",
+      "future": "will fall"
+    }
   },
   {
     "id": 101,
