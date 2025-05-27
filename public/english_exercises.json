@@ -288,300 +288,300 @@
   },
   {
     "id": 37,
-    "english": "Where do you ...?",
-    "correct": "¿Dónde vives?",
+    "type": "wh-question",
     "category": "WH Questions",
-    "type": "wh-question"
+    "english": "Where do you ...?",
+    "correct": "¿Dónde vives?"
   },
   {
     "id": 38,
-    "english": "Whose ...?",
-    "correct": "¿De quién es este libro?",
+    "type": "wh-question",
     "category": "WH Questions",
-    "type": "wh-question"
+    "english": "Whose ...?",
+    "correct": "¿De quién es este libro?"
   },
   {
     "id": 39,
-    "english": "Why are you ...?",
-    "correct": "¿Por qué llegaste tarde?",
+    "type": "wh-question",
     "category": "WH Questions",
-    "type": "wh-question"
+    "english": "Why are you ...?",
+    "correct": "¿Por qué llegaste tarde?"
   },
   {
     "id": 40,
-    "english": "What do you want to ...?",
-    "correct": "¿Qué quieres comer?",
+    "type": "wh-question",
     "category": "WH Questions",
-    "type": "wh-question"
+    "english": "What do you want to ...?",
+    "correct": "¿Qué quieres comer?"
   },
   {
     "id": 41,
-    "english": "Which ... do you?",
-    "correct": "¿Qué color prefieres?",
+    "type": "wh-question",
     "category": "WH Questions",
-    "type": "wh-question"
+    "english": "Which ... do you?",
+    "correct": "¿Qué color prefieres?"
   },
   {
     "id": 42,
-    "english": "How are you ...?",
-    "correct": "¿Cómo te sientes hoy?",
+    "type": "wh-question",
     "category": "WH Questions",
-    "type": "wh-question"
+    "english": "How are you ...?",
+    "correct": "¿Cómo te sientes hoy?"
   },
   {
     "id": 43,
-    "english": "How much ... do you want?",
-    "correct": "¿Cuánta azúcar quieres?",
+    "type": "wh-question",
     "category": "WH Questions",
-    "type": "wh-question"
+    "english": "How much ... do you want?",
+    "correct": "¿Cuánta azúcar quieres?"
   },
   {
     "id": 44,
-    "english": "How many ... do you ?",
-    "correct": "¿Cuántos ... tienes?",
+    "type": "wh-question",
     "category": "WH Questions",
-    "type": "wh-question"
+    "english": "How many ... do you ?",
+    "correct": "¿Cuántos ... tienes?"
   },
   {
     "id": 45,
-    "english": "How long did the ... ?",
-    "correct": "¿Cuánto duró la película?",
+    "type": "wh-question",
     "category": "WH Questions",
-    "type": "wh-question"
+    "english": "How long did the ... ?",
+    "correct": "¿Cuánto duró la película?"
   },
   {
     "id": 46,
-    "english": "to play",
-    "correct": "jugar",
+    "type": "base-verb",
     "category": "Base Verbs",
-    "type": "base-verb"
+    "english": "to play",
+    "correct": "jugar"
   },
   {
     "id": 47,
-    "english": "to work",
-    "correct": "trabajar",
+    "type": "base-verb",
     "category": "Base Verbs",
-    "type": "base-verb"
+    "english": "to work",
+    "correct": "trabajar"
   },
   {
     "id": 48,
-    "english": "to clean",
-    "correct": "limpiar",
+    "type": "base-verb",
     "category": "Base Verbs",
-    "type": "base-verb"
+    "english": "to clean",
+    "correct": "limpiar"
   },
   {
     "id": 49,
-    "english": "to call",
-    "correct": "llamar",
+    "type": "base-verb",
     "category": "Base Verbs",
-    "type": "base-verb"
+    "english": "to call",
+    "correct": "llamar"
   },
   {
     "id": 50,
-    "english": "to open",
-    "correct": "abrir",
+    "type": "base-verb",
     "category": "Base Verbs",
-    "type": "base-verb"
+    "english": "to open",
+    "correct": "abrir"
   },
   {
     "id": 51,
+    "type": "tense-identification",
+    "category": "Verb Tenses",
     "english": "Past Continuous",
     "correct": "She was not watching ...",
-    "category": "Verb Tenses",
-    "type": "tense-identification",
     "translation": "Ella no estaba viendo..."
   },
   {
     "id": 52,
+    "type": "tense-identification",
+    "category": "Verb Tenses",
     "english": "Present Simple",
     "correct": "He plays soccer ...",
-    "category": "Verb Tenses",
-    "type": "tense-identification",
     "translation": "Él juega al fútbol..."
   },
   {
     "id": 53,
+    "type": "tense-identification",
+    "category": "Verb Tenses",
     "english": "Future Perfect",
     "correct": "They will have finished ...",
-    "category": "Verb Tenses",
-    "type": "tense-identification",
     "translation": "Habrán terminado"
   },
   {
     "id": 54,
+    "type": "tense-identification",
+    "category": "Verb Tenses",
     "english": "Past Perfect",
     "correct": "I had already eaten ...",
-    "category": "Verb Tenses",
-    "type": "tense-identification",
     "translation": "Ya había comido"
   },
   {
     "id": 55,
+    "type": "tense-identification",
+    "category": "Verb Tenses",
     "english": "Present Perfect Continuous",
     "correct": "We have been studying ...",
-    "category": "Verb Tenses",
-    "type": "tense-identification",
     "translation": "Hemos estado estudiando"
   },
   {
     "id": 56,
-    "english": "Simple Present",
-    "correct": "I eat breakfast ...",
-    "category": "Verb Tenses",
     "type": "tense-identification",
+    "category": "Verb Tenses",
+    "english": "Present Simple",
+    "correct": "I eat breakfast ...",
     "translation": "Ya había comido"
   },
   {
     "id": 57,
+    "type": "tense-identification",
+    "category": "Verb Tenses",
     "english": "Present Continuous",
     "correct": "She is reading a book",
-    "category": "Verb Tenses",
-    "type": "tense-identification",
     "translation": "Ella está leyendo un libro"
   },
   {
     "id": 58,
+    "type": "tense-identification",
+    "category": "Verb Tenses",
     "english": "Past Continuous",
     "correct": "He was playing football ...",
-    "category": "Verb Tenses",
-    "type": "tense-identification",
     "translation": "Él estaba jugando al fútbol"
   },
   {
     "id": 59,
+    "type": "tense-identification",
+    "category": "Verb Tenses",
     "english": "Present Perfect",
     "correct": "I have seen that movie ...",
-    "category": "Verb Tenses",
-    "type": "tense-identification",
     "translation": "He visto esa película"
   },
   {
     "id": 60,
+    "type": "tense-identification",
+    "category": "Verb Tenses",
     "english": "Simple Past",
     "correct": "They visited Paris ...",
-    "category": "Verb Tenses",
-    "type": "tense-identification",
     "translation": "Visitaron París"
   },
   {
     "id": 61,
+    "type": "tense-identification",
+    "category": "Verb Tenses",
     "english": "Future Simple",
     "correct": "We will go to the beach ...",
-    "category": "Verb Tenses",
-    "type": "tense-identification",
     "translation": "Iremos a la playa"
   },
   {
     "id": 62,
+    "type": "tense-guess",
+    "category": "Guess the Tense",
     "english": "She worked ...",
     "correct": "Past Simple",
-    "category": "Guess the Tense",
-    "type": "tense-guess",
     "translation": "Ella trabajó..."
   },
   {
     "id": 63,
+    "type": "tense-guess",
+    "category": "Guess the Tense",
     "english": "She worked ...",
     "correct": "Simple Past",
-    "category": "Guess the Tense",
-    "type": "tense-guess",
     "translation": "Ella trabajó..."
   },
   {
     "id": 64,
+    "type": "tense-guess",
+    "category": "Guess the Tense",
     "english": "He is watching ...",
     "correct": "Present Continuous",
-    "category": "Guess the Tense",
-    "type": "tense-guess",
     "translation": "Él está viendo..."
   },
   {
     "id": 65,
+    "type": "tense-guess",
+    "category": "Guess the Tense",
     "english": "We had finished dinner ...",
     "correct": "Past Perfect",
-    "category": "Guess the Tense",
-    "type": "tense-guess",
     "translation": "Nosotras habíamos terminado la cena..."
   },
   {
     "id": 66,
+    "type": "tense-guess",
+    "category": "Guess the Tense",
     "english": "They have traveled to Japan",
     "correct": "Present Perfect",
-    "category": "Guess the Tense",
-    "type": "tense-guess",
     "translation": "Ellos han viajado a Japón"
   },
   {
     "id": 67,
+    "type": "tense-guess",
+    "category": "Guess the Tense",
     "english": "She will be working ...",
     "correct": "Future Continuous",
-    "category": "Guess the Tense",
-    "type": "tense-guess",
     "translation": "Ella estará trabajando..."
   },
   {
     "id": 68,
+    "type": "tense-guess",
+    "category": "Guess the Tense",
     "english": "They will have finished ...",
     "correct": "Future Perfect",
-    "category": "Guess the Tense",
-    "type": "tense-guess",
     "translation": "Ellos habrán terminado..."
   },
   {
     "id": 69,
+    "type": "tense-guess",
+    "category": "Guess the Tense",
     "english": "I had already eaten ...",
     "correct": "Past Perfect",
-    "category": "Guess the Tense",
-    "type": "tense-guess",
     "translation": "Ya había comido..."
   },
   {
     "id": 70,
+    "type": "tense-guess",
+    "category": "Guess the Tense",
     "english": "We have been studying ...",
     "correct": "Present Perfect Continuous",
-    "category": "Guess the Tense",
-    "type": "tense-guess",
     "translation": "Hemos estado estudiando..."
   },
   {
     "id": 71,
+    "type": "tense-guess",
+    "category": "Guess the Tense",
     "english": "She worked ...",
     "correct": "Simple Past",
-    "category": "Guess the Tense",
-    "type": "tense-guess",
     "translation": "Ella trabajó..."
   },
   {
     "id": 72,
+    "type": "tense-guess",
+    "category": "Guess the Tense",
     "english": "He is watching TV",
     "correct": "Present Continuous",
-    "category": "Guess the Tense",
-    "type": "tense-guess",
     "translation": "Él está viendo televisión..."
   },
   {
     "id": 73,
+    "type": "tense-guess",
+    "category": "Guess the Tense",
     "english": "We had finished dinner...",
     "correct": "Past Perfect",
-    "category": "Guess the Tense",
-    "type": "tense-guess",
     "translation": "Nosotras habiamos terminado la cena..."
   },
   {
     "id": 74,
+    "type": "tense-guess",
+    "category": "Guess the Tense",
     "english": "They have traveled to Japan",
     "correct": "Present Perfect",
-    "category": "Guess the Tense",
-    "type": "tense-guess",
     "translation": "Ellos han viajado a Japón"
   },
   {
     "id": 75,
+    "type": "tense-guess",
+    "category": "Guess the Tense",
     "english": "She will be working...",
     "correct": "Future Continuous",
-    "category": "Guess the Tense",
-    "type": "tense-guess",
     "translation": "Ella estará trabajando..."
   },
   {
@@ -647,24 +647,24 @@
   },
   {
     "id": 83,
-    "english": "What time do you ...?",
-    "correct": "¿A qué hora te levantas?",
+    "type": "wh-question",
     "category": "WH Questions",
-    "type": "wh-question"
+    "english": "What time do you ...?",
+    "correct": "¿A qué hora te levantas?"
   },
   {
     "id": 84,
-    "english": "to close",
-    "correct": "cerrar",
+    "type": "base-verb",
     "category": "Base Verbs",
-    "type": "base-verb"
+    "english": "to close",
+    "correct": "cerrar"
   },
   {
     "id": 85,
+    "type": "tense-identification",
+    "category": "Verb Tenses",
     "english": "Future Continuous",
     "correct": "I will be working ...",
-    "category": "Verb Tenses",
-    "type": "tense-identification",
     "translation": "Estaré trabajando ..."
   },
   {
@@ -750,35 +750,35 @@
   },
   {
     "id": 96,
-    "type": "base-verb",
+    "type": "base-verb-irregular",
     "category": "Irregular Verbs",
     "english": "to begin",
     "correct": "empezar"
   },
   {
     "id": 97,
-    "type": "base-verb",
+    "type": "base-verb-irregular",
     "category": "Irregular Verbs",
     "english": "to drink",
     "correct": "beber"
   },
   {
     "id": 98,
-    "type": "base-verb",
+    "type": "base-verb-irregular",
     "category": "Irregular Verbs",
     "english": "to drive",
     "correct": "conducir"
   },
   {
     "id": 99,
-    "type": "base-verb",
+    "type": "base-verb-irregular",
     "category": "Irregular Verbs",
     "english": "to eat",
     "correct": "comer"
   },
   {
     "id": 100,
-    "type": "base-verb",
+    "type": "base-verb-irregular",
     "category": "Irregular Verbs",
     "english": "to fall",
     "correct": "caer"
@@ -1170,72 +1170,82 @@
   },
   {
     "id": 156,
+    "type": "tense-guess",
+    "category": "Guess the Tense",
     "english": "She has visited ...",
     "correct": "Present Perfect",
-    "category": "Guess the Tense",
-    "type": "tense-guess"
+    "translation": "Ella ha visitado España varias veces"
   },
   {
     "id": 157,
+    "type": "tense-guess",
+    "category": "Guess the Tense",
     "english": "They had arrived ...",
     "correct": "Past Perfect",
-    "category": "Guess the Tense",
-    "type": "tense-guess"
+    "translation": "Ellos habían llegado antes de la fiesta"
   },
   {
     "id": 158,
+    "type": "tense-guess",
+    "category": "Guess the Tense",
     "english": "He will have finished ...",
     "correct": "Future Perfect",
-    "category": "Guess the Tense",
-    "type": "tense-guess"
+    "translation": "Él habrá terminado su tarea antes de la cena"
   },
   {
     "id": 159,
+    "type": "tense-guess",
+    "category": "Guess the Tense",
     "english": "I have been working ...",
     "correct": "Present Perfect Continuous",
-    "category": "Guess the Tense",
-    "type": "tense-guess"
+    "translation": "He estado trabajando aquí durante dos años"
   },
   {
     "id": 160,
+    "type": "tense-guess",
+    "category": "Guess the Tense",
     "english": "She had been studying ...",
     "correct": "Past Perfect Continuous",
-    "category": "Guess the Tense",
-    "type": "tense-guess"
+    "translation": "Ella había estado estudiando para el examen durante semanas"
   },
   {
     "id": 161,
+    "type": "tense-guess",
+    "category": "Guess the Tense",
     "english": "They will have been waiting ...",
     "correct": "Future Perfect Continuous",
-    "category": "Guess the Tense",
-    "type": "tense-guess"
+    "translation": "Ellos habrán estado esperando por una hora cuando llegues"
   },
   {
     "id": 162,
-    "english": "We have lived here for years ...",
-    "correct": "Present Perfect",
+    "type": "tense-guess",
     "category": "Guess the Tense",
-    "type": "tense-guess"
+    "english": "We have lived ...",
+    "correct": "Present Perfect",
+    "translation": "Hemos vivido aquí durante años"
   },
   {
     "id": 163,
-    "english": "He had worked there before the merger ...",
-    "correct": "Past Perfect",
+    "type": "tense-guess",
     "category": "Guess the Tense",
-    "type": "tense-guess"
+    "english": "He had worked ...",
+    "correct": "Past Perfect",
+    "translation": "Él había trabajado allí antes de la fusión"
   },
   {
     "id": 164,
-    "english": "By next year, I will have graduated ...",
-    "correct": "Future Perfect",
+    "type": "tense-guess",
     "category": "Guess the Tense",
-    "type": "tense-guess"
+    "english": "By next year, I will have ...",
+    "correct": "Future Perfect",
+    "translation": "Para el próximo año, me habré graduado"
   },
   {
     "id": 165,
-    "english": "They have been learning English since January ...",
-    "correct": "Present Perfect Continuous",
+    "type": "tense-guess",
     "category": "Guess the Tense",
-    "type": "tense-guess"
+    "english": "They have been learning English ...",
+    "correct": "Present Perfect Continuous",
+    "translation": "Han estado aprendiendo inglés desde enero"
   }
 ]
